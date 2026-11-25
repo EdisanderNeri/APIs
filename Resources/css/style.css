@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(183, 235, 235, 0.774);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    flex-wrap: wrap;
+    padding-left: 20px;
+     gap: 60px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 88%;
+  text-align: center;
+  flex-direction: column;
+  background-color: rgb(0, 162, 255);
+
+}
+img {
+    width: 85%;
+    height: 85%;
+}
+h1 {
+  margin-top: 5px;
+}
+h2 {
+    color: rgb(102, 102, 102);
+    margin-top: -6px;
+}
+
