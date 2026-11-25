@@ -9,6 +9,7 @@ body {
     grid-template-columns: auto auto auto;
     flex-wrap: wrap;
     padding-left: 20px;
+    padding-right: 20px;
      gap: 60px;
 }
 .container {
@@ -18,7 +19,9 @@ body {
   width: 88%;
   text-align: center;
   flex-direction: column;
-  background-color: rgb(0, 162, 255);
+  background-color: rgb(197, 206, 184);
+  box-shadow: 2px 3px 2px;
+  margin-right: 150px;
 
 }
 img {
@@ -31,5 +34,8 @@ h1 {
 h2 {
     color: rgb(102, 102, 102);
     margin-top: -6px;
+}
+.container:hover{
+    cursor: pointer;
 }
 
